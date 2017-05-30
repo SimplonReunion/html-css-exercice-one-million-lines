@@ -1,0 +1,282 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Rouge :	#d9534f
+   Gris:	#707070
+   Noir : 222222
+ 
+   =============================== */
+
+/* General */
+
+@media screen and (max-width: 1199px)
+{
+    /* Rédigez vos propriétés CSS ici */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-family: Arvo;
+
+}
+
+.container {
+	width: 970px;
+ 	margin: 0 auto;
+}
+
+/* Typography */
+
+h1 { 
+	font-size: 42px;
+	font-weight: normal;
+	text-align: center;
+	color: white;
+
+}
+
+h2 {
+	font-size: 20px;
+	color: #d9534f;
+	text-align: center;
+	tex
+
+}
+
+h3 {
+	font-size: 16px;
+	color: #d9534f;
+	text-align: center;
+
+}
+
+p em {
+	color : #d9534f ;
+
+}
+
+header {
+background-color: black;
+padding-top: 5px;
+
+}
+
+header nav {
+background: url(../images/top-logo.png) top left no-repeat;
+height: 21px;
+width: 226px;
+padding-bottom: 10px;
+
+}
+
+header nav ul {
+
+}
+
+
+header nav ul li {
+   display: inline-block;
+
+    	
+
+ }
+
+header nav ul li a {
+  text-decoration: none;
+  color: #707070;
+  text-transform: uppercase;
+  font-weight: bold;
+
+        }
+
+#menu {
+
+	display: flex;
+	padding-left: 120px;
+}
+
+/* Home */
+
+#home {
+	background: url(../images/hero-image.jpg) no-repeat;
+	height: 510px;
+	
+	padding-top: 20px;
+	}
+
+#home .jumbotron {
+  position: relative;
+  padding: 30px 0;
+
+ }
+
+p.lead {
+	padding-top: 70px;
+	text-align: center;
+	color : white;
+
+}
+
+p {
+	text-align: center;
+}
+
+#title {
+	text-align: center
+}
+
+#learn {
+
+	display: block;
+	margin : auto;
+	background-color: #d9534f;
+	color : white;
+	height: 64px;
+	width: 252px;
+	border: none;
+	font-family: Arvo;
+	font-size: 2.1em;
+	border-radius: 4px;
+
+
+}
+
+#displayed {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top : 37px;
+}
+
+/* Who */
+
+#who {
+display: block;	
+padding-top: 52px;
+}
+
+#academy {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 55px;
+
+}
+
+#underline {
+	border:1px;
+	border-bottom-color: #d9534f;
+
+}
+
+#ligne {
+width:162px;
+height:1px;
+background-color: #d9534f;
+font-size:0;
+margin-right: auto;
+margin-left: auto;
+}
+
+/* get-involved */
+
+#get-involved {
+background-color: #f5f5f5;
+height: 505px;
+padding-top: 52px;
+}
+
+#eleves {
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	
+
+	
+}
+
+#logo1 {
+
+	text-align: center;
+}
+
+#logo2 {
+	text-align: center;
+
+}
+
+
+#logo3 {
+	text-align: center;
+
+
+}
+#start {
+	font-family: Arvo;
+	display: block;
+	margin : auto;
+	background-color: white;
+	color:#d9534f ;
+	height:36px;
+	border: 1px solid #e9e9e9;
+	border-radius: 4px;
+
+}
+
+#initiative {
+	font-family: Arvo;
+	display: block;
+	margin : auto;
+	background-color: white;
+	color:#d9534f ;
+	height:36px;
+	border: 1px solid #e9e9e9;
+	border-radius: 4px;
+
+}
+
+#support {
+	font-family: Arvo;
+	display: block;
+	margin : auto;
+	background-color: white;
+	color:#d9534f ;
+	height:36px;
+	border: 1px solid #e9e9e9;
+	border-radius: 4px;
+		}
+
+
+/* footer */
+
+#footer{
+display: block;
+background: #d9534f;
+height: 236px;
+
+	}
+
+#brand {
+	padding-top: 173px;
+}
+
+
+@media screen and (max-width: 767px)
+{
+
+
+
+
+    #eleves {
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 50px;
+
+}
+
+#academy {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 55px;
