@@ -2,8 +2,36 @@ body { background: grey;
 
 }
 
-@media screen and (max-width: 991px) { 
-	body {background: red; }
+p {display: block;background: red;}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablette */
+@media screen and (max-width: 991px) { 
+	body {background: red; } 
+
+
+/*mobile */ 
 @media screen and (max-width: 767px) { 
-	body {background: yellow; }
+	body {background: yellow; } 
